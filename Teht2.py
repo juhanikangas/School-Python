@@ -37,21 +37,8 @@ def calculate_mass():
 
 
 def combination_locs():
-    combLock1 = [r.randint(0,9),r.randint(0,9),r.randint(0,9)]
-    combLock2 = [r.randint(1, 6), r.randint(1, 6), r.randint(1, 6),r.randint(1, 6)]
-    print("combination lock 1: ",*combLock1, sep="")
-    print("combination lock 2: ",*combLock2, sep="")
-
-
-try:
-    # calculate_mass()
-    combination_locs()
-
-
-
-except:
-    print("Broken :P")
-
-
-
+    comb_lock1 = [r.randint(0,9),r.randint(0,9),r.randint(0,9)]
+    comb_lock2 = [r.randint(1, 6), r.randint(1, 6), r.randint(1, 6),r.randint(1, 6)]
+    print("combination lock 1: ",*comb_lock1, sep="")
+    print("combination lock 2: ",*comb_lock2, sep="")
 
