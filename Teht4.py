@@ -63,7 +63,6 @@ def approx_of_pie():
     print(approx)
 
 
-approx_of_pie()
 
 
 

@@ -48,7 +48,6 @@ def prime_number():
             print(num, "is a prime number")
 
 
-prime_number()
 
 
 
