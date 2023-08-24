@@ -2,7 +2,7 @@ import random
 
 import random as r
 
-
+# 1
 def sum_of_dice():
     dice_amount = int(input("How many dice to roll: "))
     full = 0
@@ -12,6 +12,7 @@ def sum_of_dice():
     print(full)
 
 
+# 2
 def five_gratest():
     nums = []
     run = True
@@ -32,6 +33,7 @@ def five_gratest():
         print(nums[i])
 
 
+# 3
 def prime_number():
     num = int(input("Give number: "))
     flag = False

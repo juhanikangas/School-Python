@@ -1,6 +1,7 @@
 import math as m
 
 
+# 1
 def divisible_by_three():
     i = 3
     while i < 1000:
@@ -8,6 +9,7 @@ def divisible_by_three():
         i += 3
 
 
+# 2
 def inches_to_cm():
     inches = int(input("Input inches: "))
     while inches > 0:
@@ -15,6 +17,7 @@ def inches_to_cm():
         inches = int(input("Input inches: "))
 
 
+# 3
 def smallest_and_largest_num():
     run = True
     biggest_num = 0
@@ -32,7 +35,7 @@ def smallest_and_largest_num():
             run = False
             print("Smallest given number was:", smallest_num, "\n Biggest given number was:", biggest_num)
 
-
+# 4
 def create_user():
 
     username = "python"
@@ -52,7 +55,7 @@ def create_user():
     else:
         print("Welcome")
 
-
+# 5
 def approx_of_pie():
     r = 1
     circle_area = m.pi * r**2

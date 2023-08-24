@@ -1,9 +1,11 @@
+# 1
 def zander():
     zander_len = int(input("Input length of the zander: "))
     if zander_len < 42:
         print("Your zander was not big enough, it needs to be", 42-zander_len, "cm longer.\n Release the fish back in to the lake")
 
 
+# 2
 def cabin_class():
     given_class = input("Please enter your cabin class: ")
     if given_class == "LUX":
@@ -18,6 +20,7 @@ def cabin_class():
         print("Invalid cabin class")
 
 
+# 3
 def hemoglobin_value():
     gender = input("Please type your gender: ")
     hemoglobin = int(input("Please enter your hemoglobin: "))
@@ -30,7 +33,7 @@ def hemoglobin_value():
     else:
         print("Your hemoglobin is normal")
 
-
+# 4
 def check_if_leap_year():
     y = int(input("Enter year to check if it is a leap year: "))
     if (y % 100 == 0 and y % 400 == 0) or y % 4 == 0 and y % 100 != 0:
