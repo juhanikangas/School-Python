@@ -50,6 +50,12 @@ def prime_number():
             print(num, "is a prime number")
 
 
-
+# 4
+def five_cities():
+    cities = []
+    for i in range(5):
+        cities.append(input("Type city name for city " + str(i) + ": "))
+    for city in cities:
+        print(city)
 
 
