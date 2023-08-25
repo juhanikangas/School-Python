@@ -1,4 +1,5 @@
 import math as m
+import random
 
 
 # 1
@@ -35,9 +36,21 @@ def smallest_and_largest_num():
             run = False
             print("Smallest given number was:", smallest_num, "\n Biggest given number was:", biggest_num)
 
-# 4
-def create_user():
 
+def quess():
+    randint = random.randint(1, 10)
+    quess = 0
+    while quess != randint:
+        quess = int(input("Quess the number: "))
+        if quess > randint:
+            print("Too High")
+        elif quess < randint:
+            print("Too low")
+    print("Correct")
+
+
+# 5
+def create_user():
     username = "python"
     password = "rules"
     logged_out = True
@@ -55,7 +68,7 @@ def create_user():
     else:
         print("Welcome")
 
-# 5
+# 6
 def approx_of_pie():
     r = 1
     circle_area = m.pi * r**2
