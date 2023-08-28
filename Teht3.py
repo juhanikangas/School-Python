@@ -33,6 +33,7 @@ def hemoglobin_value():
     else:
         print("Your hemoglobin is normal")
 
+
 # 4
 def check_if_leap_year():
     y = int(input("Enter year to check if it is a leap year: "))
