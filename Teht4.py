@@ -78,7 +78,14 @@ def approx_of_pie():
     approx = 4 * p/100
     print(approx)
 
+yp = 0
+while n <= pisteet
+    x = random.randint(-1, 1)
+    y = random.randint(-1, 1)
+    if
 
+
+pii = (4 * yp) / pisteet
 
 
 

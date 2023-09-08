@@ -36,6 +36,7 @@ def hemoglobin_value():
 
 # 4
 def check_if_leap_year():
+
     y = int(input("Enter year to check if it is a leap year: "))
     if (y % 100 == 0 and y % 400 == 0) or y % 4 == 0 and y % 100 != 0:
         print("The year is a leap year")

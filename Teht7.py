@@ -6,12 +6,13 @@ def get_month():
 
     # Calculate the season based on the month
     season_index = (month - 1) // 3
-    seasons = ["winter", "spring", "summer", "autumn"]
+    seasons = ["winter", "spring", "summer", "autumn", "winter"]
     season = seasons[season_index]
 
     print(f"The corresponding season for month {month} is {season}.")
 
 
+get_month()
 # 2
 def print_names():
 
