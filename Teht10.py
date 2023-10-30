@@ -12,7 +12,7 @@ def test_building_class():
     building.fire_alarm()
 
 
-# 2 
+# 2
 def execute_race():
     cars = []
 

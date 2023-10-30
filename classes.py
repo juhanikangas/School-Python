@@ -18,6 +18,20 @@ class Car:
         self.travelled_distance += hours * self.current_speed
 
 
+class ElectricCar(Car):
+
+    def __init__(self, registration_number, max_speed, battery_capacity):
+        super().__init__(registration_number, max_speed)
+        self.battery_capacity = battery_capacity
+
+
+class GasolineCar(Car):
+
+    def __init__(self, registration_number, max_speed, tank_volume):
+        super().__init__(registration_number, max_speed)
+        self.battery_capacity = tank_volume
+
+
 class Race:
 
     def __init__(self, name, distance, cars):
@@ -93,3 +107,32 @@ class Building:
     def fire_alarm(self):
         for i in range(len(self.elevators)):
             self.run_elevator(i + 1, self.bot_floor)
+
+
+class Publication:
+    def __init__(self, name):
+        self.name = name,
+
+    def print_information(self):
+        print(self.name)
+
+
+class Book(Publication):
+    def __init__(self, name, author, page_count):
+        super().__init__(name)
+        self.author = author,
+        self.page_count = page_count,
+
+    def print_information(self):
+        super().print_information()
+        print(self.author, self.page_count)
+
+
+class Magazine(Publication):
+    def __init__(self, name, chief_editor):
+        super().__init__(name)
+        self.chief_editor = chief_editor
+
+    def print_information(self):
+        super().print_information()
+        print(self.chief_editor)
