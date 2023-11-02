@@ -20,7 +20,7 @@ def get_airport_name_and_location(icao):
     if cursor.rowcount > 0:
         for row in res:
             print(row)
-    return
+    return res
 
 #icao = input("Input ICAO: ")
 #get_airport_name_and_locatio
